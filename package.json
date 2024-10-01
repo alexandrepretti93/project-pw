@@ -1,0 +1,33 @@
+{
+  "name": "PlayWrightPartnerPortalAutomation",
+  "version": "1.0.0",
+  "description": "Sample Project - Playwright Specs JS ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:chrome": "npx playwright test --project=chrome",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:webkit": "npx playwright test --project=webkit",
+    "test:ui": "npx playwright test PartnerPortalJob.spec.js --project=chrome --ui"
+  },
+  "keywords": [
+    "Playwright",
+    "E2E",
+    "end-to-end"
+  ],
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "allure-playwright": "^2.0.0-beta.15",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "app-root-path": "^3.1.0",
+    "axios": "^1.7.7",
+    "install": "^0.13.0",
+    "npm": "^10.8.3",
+    "winston": "^3.13.0"
+  }
+}
